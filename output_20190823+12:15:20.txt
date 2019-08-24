@@ -1,0 +1,46 @@
+
+###################SERVER-DETAILS######################
+ HOSTNAME = jenkins2 
+ OPERATING SYSTEM = NAME="Red Hat Enterprise Linux"
+VERSION="8.0 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.0"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.0 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8.0:GA"
+HOME_URL="https://www.redhat.com/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.0
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.0"
+Red Hat Enterprise Linux release 8.0 (Ootpa)
+Red Hat Enterprise Linux release 8.0 (Ootpa)
+ ARCHITECTURE = x86_64
+ MANUFACTURER = 
+ PRODUCT NAME = 
+ CPU TYPE =  Intel(R) Xeon(R) CPU @ 2.30GHz
+ CPU USAGE = 6.2
+ CPU OP-MODE(s) = 32-bit, 64-bit
+ NO. OF CPU = 1
+ NO. OF CPU SOCKETS = 1
+ CPU SPEED IN MHz = 2300.000
+ MAXIMUM MEMORY = Me
+ USED MEMORY = 3529.
+ PERCENTAGE MEMORY USED = %
+ SWAP DETAILS :-
+       a. File System = 
+       b. Size = 
+       c. Used = 
+       d. Priority = 
+ DISK DETAILS [% Usage, FileSystem] = 24% /dev/sda1 | 
+ IP ADDRESS = 
+ SUBNET MASK = 
+ MAC ADDRESS = 42:01:0a:80:00:37
+00:00:00:00:00:00
+###################SERVER-DETAILS######################
+
+Python is not installed
