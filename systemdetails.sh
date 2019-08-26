@@ -60,5 +60,4 @@ if command -v python &>/dev/null; then
 else
     echo Python  is not installed
 fi
-=======
 echo "####################SERVER-DETAILS ######################"
