@@ -12,11 +12,7 @@ CPUOM=`/usr/bin/lscpu | grep "CPU op" | cut -d ":" -f2 | awk '$1=$1'`
 CPUC=`/usr/bin/lscpu | grep -i "CPU(s):" | cut -d ":" -f2 | awk '$1=$1'`
 CPUS=`/usr/bin/lscpu | grep -i "Socket(s)" | cut -d ":" -f2 | awk '$1=$1'`
 CPUMHZ=`/usr/bin/lscpu | grep -i "CPU MHz" | cut -d ":" -f2 | awk '$1=$1'`
-<<<<<<< HEAD
 MEMUSAGE=`top -n 1 -b | grep 'Mem'`
-=======
-MEMUSAGE=`top -n 1 -b | grep "Mem"`
->>>>>>> 0ab7b5bed077d6a0fd796714b3aec8cc153e2066
 MAXMEM=`echo $MEMUSAGE | cut -d" " -f2 | awk '{print substr($0,1,length($0)-1)}'`
 USEDMEM=`echo $MEMUSAGE | cut -d" " -f4 | awk '{print substr($0,1,length($0)-1)}'`
 USEDMEM1=`expr $USEDMEM \* 100`
@@ -55,7 +51,6 @@ echo " DISK DETAILS [% Usage, FileSystem] = $DISK"
 echo " IP ADDRESS = $IP"
 echo " SUBNET MASK = $SM"
 echo " MAC ADDRESS = $MAC"
-<<<<<<< HEAD
 echo "###################SERVER-DETAILS######################"
 echo -ne '\n'
 if command -v python &>/dev/null; then
@@ -67,4 +62,3 @@ else
 fi
 =======
 echo "####################SERVER-DETAILS ######################"
->>>>>>> 0ab7b5bed077d6a0fd796714b3aec8cc153e2066
